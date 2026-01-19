@@ -17,6 +17,11 @@ html, body{
 
 }
 /* shared style */
+p{
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 20px;
+}
 body{
     max-width: 1600px;
     background: #1A0B2E;
@@ -79,8 +84,105 @@ nav .btn-g, .btn-1{
     margin: -169px 100px  20px;
 
 }
-/* h1,h2,h3,h4,h5,h6,p{
-    color: #ffffff;
 
+#podcast .podcast-info{
+    /* margin-top: 50px; */
+}
+.podcast-info{
+    margin: 20px auto;
+}
+.podcast-info .text-dote{
+    margin-top: 30px;
+}
+.break-line{
+    border-top: 1px solid white;
+    width: 900px;
+    margin: 50px auto;
+}
+h3{margin-top: 10px;
+    color: #00FF88;
+    padding: 20px;
+}
+h6{
+    text-transform:uppercase ;
+    margin-bottom: 50px;
+}
+#techwave-features{
+    /* width: 1200px; */
+    height: 1120px;
+    background: #230E3D;
+
+}
+#techwave-features .heading{
+    text-align: center;
+    margin: 120px 200px 100px 200px;
+
+}
+.heading h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.feature-container{
+    display: grid;
+    gap: 30px;
+    grid-template-areas: 
+        "audio mobile mobile"
+        "audio global global"
+        "interviwe interviwe resorce"
+
+}
+.feature-container .card{
+    border: 1px solid red;
+    background: #351165;
+    border-radius: 30px;
+    padding: 50px;
+    /* background: greenyellow; */
+}
+.audio{
+    grid-area: audio;
+}
+.mobile{
+    grid-area: mobile;
+}
+.global{
+    grid-area: global;
+}
+.interviwe{
+    grid-area: interviwe;
+}
+.resorce{
+    grid-area: resorce;
+}
+
+/* Episodes-container */
+#Episodes{
+    max-width: 1600px;
+    height: 1270px;
+    margin: 0 200px;
+}
+
+
+#Episodes .Episodes-heading{
+    text-align: center;
+    margin: 120px 200px 200px 50px;
+}
+
+.Episodes-container{
+    display: flex;
+    gap: 20px;
     
-} */
+}
+.Episodes-card{
+    width: 380px;
+    height: 440px;
+}
+.Episodes-card img{
+    height: 214px;
+}
+/* footer */
+
+footer .social-container{
+    margin: 50px auto;
+    justify-content: center;
+    gap: 50px;
+}
