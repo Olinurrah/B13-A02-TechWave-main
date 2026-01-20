@@ -27,8 +27,7 @@ html, body{
     font-weight: bold;
     /* margin:  24px 24px 24px 0; */
 
-    color: #ffffff
-    ;
+    color: #ffffff;
 }
 p{
     font-size: 1rem;
@@ -39,10 +38,10 @@ body{
     max-width: 1600px;
     background: #1A0B2E;
 }
-header,nav,#banner,#podcast{
+/* header,nav,#banner,#podcast{
     max-width: 1600px;
 
-}
+} */
 nav{
     text-align: center;
     margin: 1rem 200px;
@@ -121,7 +120,7 @@ h6{
     margin-bottom: 50px;
 }
 #techwave-features{
-    /* width: 1600px; */
+    max-width: 1600px;
     height: 1120px;
     margin: 0 200px;
     background: #230E3D;
@@ -219,10 +218,65 @@ iframe{
     margin-right: 10px;
 }
 
+/* meet host */
+.meet-host-info{
+  
+border-radius: 50px;
+
+}
+.host-heading{
+     text-align: center;
+    margin: 40px auto;
+
+}
+
+
+.meet-host-info img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.meet-host-info .info .alex{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+
+}
+.social-link img{
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+    padding: 3px;
+    border-radius: 50%;
+    border:1px solid #533C72;
+}
 /* footer */
+footer{
+    
+    max-width: 1600px;
+    height: 412px;
+    background-image: url(/assets/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-bottom: 200px; */
+    position: relative;
+}
+.footer-container{
+    
+    /* justify-content: center;
+    margin-top: 100px; */
+    position: absolute;
+    top: 140px;
+    left: 570px;
+}
 
 footer .social-container{
-    margin: 50px auto;
+    margin: 30px auto;
     justify-content: center;
     gap: 50px;
+}
+footer .i-link{
+    display: flex;
+    gap: 10px;
 }
