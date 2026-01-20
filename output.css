@@ -178,6 +178,9 @@
   }
 }
 @layer utilities {
+  .top-1 {
+    top: calc(var(--spacing) * 1);
+  }
   .m-3 {
     margin: calc(var(--spacing) * 3);
   }
@@ -222,6 +225,9 @@
   }
   .flex-col {
     flex-direction: column;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
   }
   .justify-around {
     justify-content: space-around;

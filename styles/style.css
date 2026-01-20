@@ -75,20 +75,26 @@ nav .btn-g, .btn-1{
 }
 .banner-containet .img-circle{
     position: absolute;
-    top: 101px;
-    left: 600px;
+    /* top: 101px;
+    left: 600px; */
+    top: 7%;
+    left: 38%;
 
 }
 .banner-containet .img-microphn{
     position: absolute;
-    top: 170px;
-    left: 720px;
+    /* top: 170px;
+    left: 720px; */
+    top: 16%;
+    left: 46%;
 
 }
 .banner-containet .btn-new{
     position: absolute;
-    top: 118px;
-    left: 890px;
+    /* top: 118px;
+    left: 890px; */
+    top: 10%;
+    left: 58%;
     padding: 8px 16px;
     color: #1A0B2E;
     background: #00FF88;
@@ -103,9 +109,10 @@ nav .btn-g, .btn-1{
    
     text-align: center;
     align-items: center;
-    position: absolute;
+    margin-top: 500px
+    /* position: absolute;
     top: 70%;
-    left: 30%;
+    left: 30%; */
 
 
 }
@@ -170,9 +177,10 @@ h6{
     background: #230E3D;
 
 }
-#techwave-features .heading{
+#techwave-features .heading h2{
     text-align: center;
-    margin: 120px 200px 100px 200px;
+    padding-top: 100px;
+    /* margin: 120px 200px 100px 200px; */
 
 }
 .heading h2{
@@ -180,8 +188,9 @@ h6{
     font-weight: bold;
 }
 .feature-container{
+    margin: 100px;
     display: grid;
-    gap: 30px;
+    gap: 20px;
     justify-content: center;
     grid-template-areas: 
         "audio mobile mobile"
@@ -190,10 +199,10 @@ h6{
 
 }
 .feature-container .card{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background: #351165;
     border-radius: 30px;
-    padding: 50px;
+    padding: 40px;
     /* background: greenyellow; */
 }
 .audio{
@@ -299,7 +308,7 @@ iframe{
 }
 /* footer */
 footer{
-    
+    margin-top: 100px;
     max-width: 1600px;
     height: 412px;
     background-image: url(/assets/footer-bg.png);
@@ -325,4 +334,105 @@ footer .social-container{
 footer .i-link{
     display: flex;
     gap: 10px;
+}
+
+/* mobile screen */
+
+@media screen and (max-width:576px) {
+
+    .podcast-ratings{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(1, 200px);
+        justify-content: space-around;
+        gap: 1px;
+    }
+/* 
+    header{
+        display: flex;
+        flex-direction: column;
+
+  
+  
+    } */
+    #podcast .podcast-info{
+        flex-direction: column;
+        text-align: center;
+        margin: 0 20px;
+    }
+     .card-1{
+        grid-area: card1;
+    }
+    .card-2{
+        grid-area: card2;
+    }
+    .card-3{
+        grid-area: card3;
+    }
+    .card-4{
+        grid-area: card4;
+    } 
+    .podcast-ratings{
+        display: grid;
+    grid-template-areas: 
+    "card1 card2"
+    "card3 card4";
+      
+
+
+    }
+    .podcast-ratings-card{
+        width: 100%;
+    }
+
+
+
+    .card{
+        width: 570px;
+        justify-content: center;
+        
+
+    }
+        
+
+    .feature-container{
+
+        text-align: center; */
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        /* grid-template-rows: repeat(5,1fr); */
+        /* justify-content: center; */
+
+        j
+
+    }
+    #Episodes
+    #Episodes
+    #Episodes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
