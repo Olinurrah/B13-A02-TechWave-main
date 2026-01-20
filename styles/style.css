@@ -53,7 +53,7 @@ nav .btn-g, .btn-1{
     background-image: linear-gradient(to right top, #F7E93F, #FB09B4,#9100F8);
     /* background:red; */
     padding: 12px 24px;
-    border-radius: 15px;
+    border-radius: 30px;
     /* background-image: linear-gradient(to right red green yellow); */
 }
 
@@ -64,8 +64,8 @@ nav .btn-g, .btn-1{
   -webkit-text-fill-color: transparent;
 }
 #banner{
-    /* position: relative; */
-    border: 1px solid red;
+    position: relative;
+    border-top: 2px solid #230E3D;
     /* width: 1600px; */
     height: 760px;
     background-image:url(/assets/hero-bg.png);
@@ -73,32 +73,76 @@ nav .btn-g, .btn-1{
     background-repeat: no-repeat;
     /* z-index: -1; */
 }
-.banner-info{
-    width: 550px;
-    height: 558px;
-    border: 1px solid red;
+.banner-containet .img-circle{
+    position: absolute;
+    top: 101px;
+    left: 600px;
+
+}
+.banner-containet .img-microphn{
+    position: absolute;
+    top: 170px;
+    left: 720px;
+
+}
+.banner-containet .btn-new{
+    position: absolute;
+    top: 118px;
+    left: 890px;
+    padding: 8px 16px;
+    color: #1A0B2E;
+    background: #00FF88;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 800;
+
+}
+#banner .banner-info{
+    /* width: 550px;
+    height: 558px; */
+   
     text-align: center;
     align-items: center;
-    position: relative;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+
 
 }
-#banner .img-2{
-    /* text-align: center;
-    justify-content: center; */
-    position: absolute;
-    margin: -169px 100px  20px;
 
+#banner .banner-info h1,p{
+    margin: 20px auto;
 }
-#banner .img-1{
-    /* text-align: center;
-    justify-content: center; */
-    position: absolute;
-    margin: -169px 100px  20px;
-
+.btn-con-1{
+    border: 1px solid #351165;
+    padding: 12px 25px;
+    border-radius: 30px;
+    
+}
+.btn-con-2{
+    border: 1px solid #00FF88;
+    padding: 12px 20px;
+    border-radius: 30px;
+    
+}
+.btn-con-2 img{
+    margin-right: 10px;
+    height: 20px;
+}
+#podcast{
+    border: 1px solid red;
+    max-width: 1600px;
+    margin: 0 200px;
+    background: #1A0B2E;
 }
 
 #podcast .podcast-info{
     /* margin-top: 50px; */
+}
+.podcast-ratings {
+    width: 1200px;
+    margin: 0 auto;
+
 }
 .podcast-info{
     margin: 20px auto;
@@ -219,10 +263,12 @@ iframe{
 }
 
 /* meet host */
+/* .Meet-Host{
+    max-width: 1600px;
+    margin: 0 200px;
+} */
 .meet-host-info{
-  
-border-radius: 50px;
-
+    border-radius: 50px;
 }
 .host-heading{
      text-align: center;
