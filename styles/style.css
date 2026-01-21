@@ -330,73 +330,89 @@ footer .i-link{
 
 @media screen and (max-width:576px) {
 
-    .podcast-ratings{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(1, 200px);
-        justify-content: space-around;
-        gap: 1px;
-    }
-    /* 
-    header{
-        display: flex;
-        flex-direction: column;
-
-  
-  
-    } */
-    #podcast .podcast-info{
-        flex-direction: column;
-        text-align: center;
-        margin: 0 20px;
-    }
-     .card-1{
-        grid-area: card1;
-    }
-    .card-2{
-        grid-area: card2;
-    }
-    .card-3{
-        grid-area: card3;
-    }
-    .card-4{
-        grid-area: card4;
-    } 
-    .podcast-ratings{
-        display: grid;
-    grid-template-areas: 
-    "card1 card2"
-    "card3 card4";
-      
-
-
-    }
-    .podcast-ratings-card{
-        width: 100%;
-    }
-
-
-
-    .card{
-        width: 570px;
-        justify-content: center;
-        
-
-    }
-        
 
     .feature-container{
 
-        text-align: center;
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        /* grid-template-rows: repeat(5,1fr); */
-        /* justify-content: center; */
+    /* margin: 100px; */
 
-        
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    grid-template-areas: 
+        "audio"
+        "mobile"
+        "global"
+        "interviwe"
+        "resorce"
 
-    }
+}
+.feature-container .card{
+    /* text-align: left; */
+    width: 575px;
+    background: #351165;
+    border-radius: 30px;
+    /* padding: 40px; */
+    padding: 20px;
+   
+}
+.audio{
+    grid-area: audio;
+}
+.mobile{
+    grid-area: mobile;
+}
+.global{
+    grid-area: global;
+}
+.interviwe{
+    grid-area: interviwe;
+}
+.resorce{
+    grid-area: resorce;
+}
+
+
+/* Featured Episodes area */
+/* #Episodes{
+max-width: 1600px;
+    height: 1270px;
+    margin: 0 200px;
+    background: #1A0B2E;
+    
+} */
+
+
+#Episodes .Episodes-heading{
+    text-align: center;
+    margin: 50px auto;
+}
+.Episodes-container{
+    width: 576px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.Episodes-card{
+    text-align: left;
+    background-color: #250D44;
+    border-radius: 30px;
+}
+iframe{
+    /* width: 390px; */
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+}
+.Episodes-card p{
+    margin-left: 20px;
+
+}
+
+/* 
+    #podcast 
     #Episodes
     #Episodes
-    #Episodes
+    #Episodes */
 }
