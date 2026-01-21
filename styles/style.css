@@ -330,6 +330,12 @@ footer .i-link{
 
 @media screen and (max-width:576px) {
 
+    /* podcast-ratings  */
+    .podcast-ratings {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
 
     .feature-container{
 
@@ -373,46 +379,99 @@ footer .i-link{
 
 
 /* Featured Episodes area */
-/* #Episodes{
-max-width: 1600px;
-    height: 1270px;
-    margin: 0 200px;
-    background: #1A0B2E;
-    
-} */
-
+#Episodes{
+    margin:0px 20px;
+    margin-bottom: 100px;
+    height: auto;
+     } 
 
 #Episodes .Episodes-heading{
     text-align: center;
-    margin: 50px auto;
+    margin: 20px 0;
 }
 .Episodes-container{
-    width: 576px;
+    /* width: 576px;  */
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
+    /* margin: 0 20px; */
+   
     
-    
+
 }
+
 .Episodes-card{
-    text-align: left;
-    background-color: #250D44;
-    border-radius: 30px;
+    
 }
 iframe{
-    /* width: 390px; */
-    width: 100%;
+     width: 100%;
     border-radius: 30px 30px 0 0;
 }
 .Episodes-card p{
     margin-left: 20px;
 
+} */ */
+
+/* Meet-Host */
+#Meet-Host{
+    
+    max-width: 576px;
+    margin: 20px;
+    text-align: center;
+   
 }
 
-/* 
-    #podcast 
-    #Episodes
-    #Episodes
-    #Episodes */
+.meet-host-info img{
+    margin: 24px auto 24px auto;
+}
+.meet-host-info .info .alex{
+     margin: 16px 155px;
+
+}
+.social-link{
+    justify-content: center;
+}
+.meet-host-info .social-link img {
+   
+    margin:1rem;
+}
+.meet-host-info{
+    flex-direction: column; 
+    margin: 20px; 
+    
+}
+#banner .banner-info h1, p{
+    text-align: center;
+    margin: 20px;
+}
+/* footer area */
+
+footer{
+   
+    /* background-image: url(./assets/footer-bg.png); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+.footer-container{
+    position: absolute;
+    top: -73px;
+    left:130px;
+  
+}
+
+footer .social-container{
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+}
+small{
+    margin: 0;
+}
+footer .i-link{
+    display: flex;
+    
+}
+
+    /* #podcast  */
+   
 }
