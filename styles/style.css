@@ -46,7 +46,9 @@ nav{
     text-align: center;
     margin: 1rem 200px;
 }
-
+#hembergur{
+  visibility: hidden;
+}
 nav .btn-g, .btn-1{
    
     background-image: linear-gradient(to right top, #F7E93F, #FB09B4,#9100F8);
@@ -274,7 +276,7 @@ iframe{
 /* meet host */
 .Meet-Host{ 
     max-width: 1600px;
-    /* margin: 0 200px; */
+    margin: 0 200px;
 } 
 .meet-host-info{
     border-radius: 50px;
@@ -340,19 +342,29 @@ footer .i-link{
 
 @media screen and (max-width:576px) {
 
-    header nav .logo{
-        width: 137px;
-        height: 20px;
+    header nav .logo h1{
+        font-size: 32px;
+        font-weight: bold;
         margin: 20px 20px;
     }
     nav{
-    /* text-align: center; */
-    /* margin: 1rem 20px; */
+    margin: 0 0px;
 }
 nav h1 span{
     display: inline;
 }
+#hembergur{
+    font-weight: bolder;
+     margin: 20px 20px auto auto;
+    
+     visibility:visible;
+    
+}
 
+.menu,
+#btn-hide-mob{
+    display: none;
+}
 #banner{
     position: relative;
     border-top: 2px solid #230E3D;
