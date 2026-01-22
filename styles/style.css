@@ -60,6 +60,7 @@ nav .btn-g, .btn-1{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 #banner{
     position: relative;
     border-top: 2px solid #230E3D;
@@ -178,6 +179,11 @@ h6{
     font-size: 40px;
     font-weight: bold;
 }
+h3 {
+    margin-top: 10px;
+    color: #00FF88;
+    padding: 0px;
+}
 
 .feature-container{
     margin: 100px;
@@ -216,7 +222,6 @@ h6{
 /* Episodes-container */
 #Episodes{
 max-width: 1600px;
-    height: 1270px;
     margin: 0 200px;
     background: #1A0B2E;
     
@@ -243,6 +248,11 @@ iframe{
     width: 390px;
     border-radius: 30px 30px 0 0;
 }
+.Episodes-card h3 {
+    margin-top: 10px;
+    /* color: #00FF88; */
+    padding: 20px;
+}
 .Episodes-card p{
     margin-left: 20px;
 
@@ -262,10 +272,10 @@ iframe{
 }
 
 /* meet host */
-/* .Meet-Host{
+.Meet-Host{ 
     max-width: 1600px;
-    margin: 0 200px;
-} */
+    /* margin: 0 200px; */
+} 
 .meet-host-info{
     border-radius: 50px;
 }
@@ -330,18 +340,89 @@ footer .i-link{
 
 @media screen and (max-width:576px) {
 
-    /* podcast-ratings  */
-    .podcast-ratings {
-        display: flex;
-        flex-wrap: wrap;
+    header nav .logo{
+        width: 137px;
+        height: 20px;
+        margin: 20px 20px;
     }
+    nav{
+    /* text-align: center; */
+    /* margin: 1rem 20px; */
+}
+nav h1 span{
+    display: inline;
+}
+
+#banner{
+    position: relative;
+    border-top: 2px solid #230E3D;
+    /* width: 1600px; */
+    /* height: 760px; */
+    /* background-image:url(/assets/hero-bg.png); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* z-index: -1; */
+}
+.banner-container .img-circle{
+    position: absolute;
+
+    top: 7%;
+    left: 19%;
+
+}
+.banner-container .img-microphn{
+    position: absolute;
+    top: 16%;
+    left: 40%;
+
+}
+.banner-container .btn-new{
+    position: absolute;
+    top: 10%;
+    left: 69%;
+    padding: 8px 16px;
+    color: #1A0B2E;
+    background: #00FF88;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 800;
+
+}
+
+    /* podcast   */
+   #podcast{
+    margin: 0px;
+    background: #1A0B2E;
+}
+
+.break-line {
+    border-top: 1px solid white;
+    width: 500px;
+    margin: 50px auto;
+}
+
+.podcast-ratings{
+    margin: 0 20px;
+    width: 576px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+
+    
+}
+h3{margin-top: 10px;
+    color: #00FF88;
+    padding: 20px;
+}
+h6{
+    text-transform:uppercase ;
+    margin-bottom: 50px;
+}
 
     /* techwave-features */
+
 #techwave-features {
-   
     margin: 0px;
-    /* background: #230E3D; */
-    /* padding-bottom: 50px; */
+  
 }
 
 
@@ -428,6 +509,10 @@ iframe{
     text-align: center;
    
 }
+.Meet-Host{ 
+    /* max-width: 1600px; */
+    margin: 0 0px;
+} 
 
 .meet-host-info img{
     margin: 24px auto 24px auto;
